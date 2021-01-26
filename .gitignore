@@ -1,0 +1,10 @@
+*.DS_Store
+*.dbeaver
+*.project
+*.swo
+*.swp
+*.pyc
+.idea/
+.ipynb_checkpoints/
+.secrets*
+scratch_space/

@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+scipy = "*"
+pandas = "*"
+matplotlib = "*"
+torch = "*"
+jupyter = "*"
+pmdarima = "==1.1.0"
+tbats = "==1.0.0"
+seaborn = "*"
+sqlalchemy = "*"
+dynaconf = "*"
+pyodbc = "*"
+dask = {extras = ["dataframe"], version = "*"}
+
+[requires]
+python_version = "3.8"
